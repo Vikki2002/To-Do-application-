@@ -68,7 +68,7 @@ export default function AddTask() {
                         <i className="ri-notification-4-fill"></i>
                         <i className="ri-calendar-event-line"></i>
                     </div>
-                    <button type='submit' className="text-[white] bg-[#16404D] p-3 rounded-[5px]">
+                    <button type='submit' className="bg-[#16404D] p-3 rounded-[5px]">
                         {loading ? "Adding.." : "Add Task"}
                     </button>
                 </div>

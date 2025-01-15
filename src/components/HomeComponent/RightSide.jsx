@@ -37,7 +37,7 @@ export default function RightSide() {
     };
 
     return (<>
-        <div id="right-side" className="flex flex-col items-start gap-4 w-[70vw] background-color rounded-lg shadow-lg">
+        <div id="right-side" className="lg:w-[70vw] md:w-[60vw] flex flex-col items-start gap-4  background-color rounded-lg shadow-lg">
             <button onClick={handleClick} className="px-3 m-3">
                 TO DO
                 <span className="ml-4">{open ? <i className="ri-arrow-down-s-fill"></i> : <i className="ri-arrow-up-s-fill"></i>}</span>
@@ -79,12 +79,12 @@ export default function RightSide() {
                     </ul>
                 </div>
             </div>
-            <div className="px-3 w-full">
+            <div className="px-3 w-[100%]">
                 <h2>Completed Task</h2>
-                <div className="flex flex-col items-start gap-4 w-full h-[300px] mt-2 rounded-[5px] overflow-css">
+                <div className="w-[100%] flex flex-col items-start gap-4 h-[300px] mt-2 rounded-[5px] overflow-css">
                     <ul className="list-none flex flex-col gap-3 p-[2rem]">
                         <div>
-                            <li className="flex flex-row justify-between gap-4 px-[30px]">
+                            <li className="w-[100%] flex flex-row justify-between gap-4 px-[30px]">
                                 <div className="flex flex-row items-center gap-8">
                                     <i className="ri-checkbox-line text-green-800 text-[20px]"></i>
                                     <span className="text-[#16404D] font-bold">Task 1</span>
@@ -105,8 +105,8 @@ export default function RightSide() {
             >
                 <div className='w-[40vw] h-[500px] mx-auto bg-white rounded-[5px] p-2'>
                     <div className='flex flex-col gap-5 mx-[50px]'>
-                        <li className="flex flex-row justify-between gap-4 px-[30px] mt-[10px]">
-                            <div className="flex flex-row items-center gap-8">
+                        <li className="flex flex-row lg:justify-between md:justify-evenly justify-center gap-2 px-[30px] mt-[10px]">
+                            <div className="flex flex-row items-center gap-2">
                                 <i className="ri-checkbox-blank-line text-[20px] cursor-pointer"></i>
                                 <span className="individualTask cursor-pointer text-[#16404D] font-bold w-[100px] overflow-hidden"
                                 >

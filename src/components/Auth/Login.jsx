@@ -39,13 +39,13 @@ export default function Login() {
     }
     return (<>
         <NavBar />
-        <div className="flex justify-center items-center h-screen">
-            <div className="bg-white p-8 rounded-lg shadow-lg w-full md:w-1/3">
+        <div className="flex justify-center items-center h-screen w-[100vw]">
+            <div className="bg-white p-8 rounded-lg shadow-lg w-[80vw]">
                 <h1 className="text-center">Login</h1>
                 <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-5 mt-8 w-[100%]">
-                    <input type="text" placeholder="Username" name="name" value={inputData.name} onChange={changeEventHandler} />
-                    <input type="email" placeholder="enter email" name="email" value={inputData.email} onChange={changeEventHandler} />
-                    <input type="password" placeholder="Password" name="password" value={inputData.password} onChange={changeEventHandler} />
+                    <input type="text" placeholder="Username" name="name" value={inputData.name} onChange={changeEventHandler} className="lg:w-[50%] w-[80%]"/>
+                    <input type="email" placeholder="enter email" name="email" value={inputData.email} onChange={changeEventHandler} className="lg:w-[50%] w-[80%]"/>
+                    <input type="password" placeholder="Password" name="password" value={inputData.password} onChange={changeEventHandler} className="lg:w-[50%] w-[80%]"/>
                     <button type="submit" className="font-jersey text-[24px] font-semibold button">
                         {loading ? "Processing..." : "Login"}
                     </button>

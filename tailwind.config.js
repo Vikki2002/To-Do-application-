@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        eater: ['Eater', 'cursive'],
+        jersey: ['Jersey 15', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        rye: ['Rye', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }

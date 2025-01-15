@@ -1,0 +1,40 @@
+h1 {
+    font-size: 2.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #16404D;
+    font-weight: 700;
+}
+
+input {
+    width: 25rem;
+    height: 56px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border: 1px solid #867171;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    letter-spacing: 1.5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.button {
+    width: 10rem;
+    height: 56px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #16404D;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: white;
+}

@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.background-color {
+    background: linear-gradient(0deg, rgba(53, 121, 55, 0.1) 0%, rgba(208, 255, 210, 0.1) 100%);
+}
+
+.overflow-css {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+.hidden {
+    display: none;
+}
+.ma{
+    margin: 0 auto 0 auto;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.light-mode {
+    background-color: #FBFDFC;
+    color: #121212;
+}
